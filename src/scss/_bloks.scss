@@ -1,0 +1,29 @@
+.wrapper__header {
+  padding: 45px 0;
+}
+
+.wrapper__hero {
+  @include bottom;
+}
+
+.wrapper__about {
+  @include bottom;
+}
+
+.wrapper__task {
+  @include bottom;
+}
+
+.wrapper__main {
+  position: relative;
+  @include bottom;
+}
+
+.wrapper__form {
+  @include bottom;
+}
+
+.wrapper__footer {
+  background-color: $dark-color;
+  color: $white-color;
+}

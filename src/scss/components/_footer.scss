@@ -1,0 +1,50 @@
+.footer__content {
+  padding: 50px 0 60px;
+  color: $white-color;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  justify-items: center;
+  
+  @include sm {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: normal;
+  }
+  @include xs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.footer__logo {
+  grid-column: 1/span;
+}
+
+.footer__title {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: $font-family-2;
+  margin-bottom: 20px;
+}
+
+.footer__link {
+  color: $white-color;
+  margin-bottom: 20px;
+}
+
+.footer__section {
+  @include flex;
+  gap: 10px;
+}
+
+.footer__block {
+  @include flex-center;
+  .footer__icon:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+.footer__political {
+  position: relative;
+  padding: 25px 0;
+  text-align: center;
+}

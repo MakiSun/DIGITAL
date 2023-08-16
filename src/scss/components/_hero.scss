@@ -1,0 +1,115 @@
+.hero__container {
+  @include flex-all-sb;
+  position: relative;
+  @include sm {
+    flex-direction: column;
+  }
+}
+
+.hero__content {
+  margin-right: 120px;
+  @include sm {
+    text-align: center;
+    margin: 0;
+    order: 2;
+    margin-top: 50px;
+  }
+}
+
+.hero__title {
+  font-family: $font-family-2;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $gray-color;
+  margin-bottom: 100px;
+  span {
+    color: $dark-color;
+  }
+  @include  sm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  @include  us {
+    font-size: 52px;
+  }
+}
+
+.hero__slider {
+  margin-bottom: 90px;
+}
+
+.hero__arrow {
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid $gray-color;
+  margin-right: 30px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    border: 2px solid $gray-color;
+    transform: scale(1.2);
+  }
+}
+
+.hero__arrow-end {
+  margin-right: 0;
+}
+
+.hero__pagin {
+  @include flex;
+  position: relative;
+  font-family: $font-family-2;
+  font-size: 40px;
+  color: $gray-color;
+  text-align: center;
+  @include sm {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+.hero__end {
+  display: inline-flex;
+  align-items: center;
+  &::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 45px;
+    transform: rotate(135deg);
+    background-color: $gray-color;
+    flex-grow: 1;
+    margin: 0 30px;
+  }
+}
+
+.hero__image {
+  position: relative;
+  transform: scale(1);
+  @include sm {
+    order: 1;
+    margin-top: 200px;
+  }
+  @include us {
+    margin-top: 150px;
+  }
+}
+
+.hero__item {
+  @include flex-center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 30px 40px;
+  background-color: $white-color;
+  cursor: pointer;
+}
+
+
+
+
+

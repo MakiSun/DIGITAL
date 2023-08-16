@@ -1,0 +1,46 @@
+.task__content {
+  @include flex-all-sb;
+  @include ss {
+    flex-direction: column;
+  }
+}
+
+.task__title {
+  @include sm {
+    text-align: center;
+  }
+}
+
+.task__item {
+  @include flex-all-sb;
+}
+
+.task__item {
+  position: relative;
+  padding-left: 70px;
+  margin-bottom: 60px;
+  width: 400px;
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 30px;
+    color: $gray-color;
+    font-family: $font-family-2;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    content: attr(data-count);
+  }
+  &:nth-of-type(odd) {
+    max-width: 400px;
+  }
+   &:nth-of-type(even) {
+     max-width: 400px;
+   }
+
+  @include sm {
+    width: 100%;
+  }
+}

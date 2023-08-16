@@ -1,0 +1,48 @@
+.form__content {
+  @include flex-all-sb;
+  margin-bottom: 30px;
+  @include sm {
+    flex-direction: column;
+  }
+}
+
+.form__item-top {
+  width: 370px;
+  margin-right: 30px;
+  @include flex-column;
+  @include sm {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.form__fields {
+  display: block;
+  position: relative;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  background-color: $mid-gray-color;
+}
+
+.form__img {
+  width: 100%;
+  @include sm {
+    display: none;
+  }
+}
+
+.form__checkbox {
+  @include flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form__btn {
+  @include flex;
+  gap: 10px;
+  padding: 30px 40px 30px 30px;
+  background-color: $dark-color;
+  color: $white-color;
+  margin: 0;
+}
+

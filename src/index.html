@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk" class="page">
+
+@include('./partials/head.html')
+
+<body>
+  <div class="wrapper">
+    @include('./partials/header.html', {
+    "header": "wrapper__header",
+    })
+    @include('./partials/hero.html', {
+    "hero": "wrapper__hero",
+    })
+    @include('./partials/about.html', {
+    "about": "wrapper__about",
+    })
+    @include('./partials/task.html', {
+    "task": "wrapper__task",
+    })
+    @include('./partials/main.html', {
+    "main": "wrapper__main",
+    })
+    @include('./partials/form.html', {
+    "form": "wrapper__form",
+    })
+    @include('./partials/footer.html', {
+    "footer": "wrapper__footer",
+    })
+  </div>
+</body>
+</html>

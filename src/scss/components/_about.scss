@@ -1,0 +1,37 @@
+.about__container {
+  @include flex-all-sb;
+  @include sm {
+    flex-direction: column;
+  }
+}
+
+.about__item-position {
+  display: inline-flex;
+  padding: 30px 40px;
+  background-color: $white-color;
+  cursor: pointer;
+}
+
+.about__title {
+  font-family: $font-family-1;
+  font-size: 64px;
+  color: $gray-color;
+  margin-bottom: 20px;
+  font-weight: 300;
+  @include sm {
+    text-align: center;
+    font-size: 52px;
+  }
+}
+
+.about__subtitle {
+  font-family: $font-family-1;
+  width: 400px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  @include us {
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,19 @@
+// Basic connections
+@import 'vars';
+@import 'mixins';
+@import 'fonts';
+@import 'settings';
+@import 'bloks';
+@import 'common';
+
+// Comopnents
+
+@import '../scss/components/_header';
+@import '../scss/components/_hero';
+@import '../scss/components/_about';
+@import '../scss/components/_task';
+@import '../scss/components/_main';
+@import '../scss/components/_form';
+@import '../scss/components/_footer';
+
+

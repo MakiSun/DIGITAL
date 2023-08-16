@@ -1,0 +1,9 @@
+// Open Sans
+@include font-face("Open Sans", "../resources/fonts/OpenSans-Regular.woff", 400, normal);
+@include font-face("Open Sans", "../resources/fonts/OpenSans-SemiBold.woff", 600, normal);
+
+// TTHoves
+@include font-face("TT Hoves", "../resources/fonts/TTHoves-Light.woff", 300, normal);
+@include font-face("TT Hoves", "../resources/fonts/TTHoves-Regular.woff", 400, normal);
+@include font-face("TT Hoves", "../resources/fonts/TTHoves-Medium.woff", 500, normal);
+@include font-face("TT Hoves", "../resources/fonts/TTHoves-Bold.woff", 700, normal);
