@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1272b915-fc24-4f4c-845c-6cc90a503c41" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/header/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/header/text-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_bloks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_bloks.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/mixins/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mixins/_flex.scss" afterDir="false" />
-    </list>
+    <list default="true" id="1272b915-fc24-4f4c-845c-6cc90a503c41" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +46,7 @@
       <workItem from="1692033304730" duration="594000" />
       <workItem from="1692191279468" duration="592000" />
       <workItem from="1692200968323" duration="101000" />
+      <workItem from="1692202924593" duration="916000" />
     </task>
     <servers />
   </component>
